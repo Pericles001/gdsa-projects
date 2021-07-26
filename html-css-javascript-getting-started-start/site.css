@@ -25,23 +25,23 @@ header {
     padding: 10px;
 }
 
-nav a:visited, nav a:link{
+nav a:visited, nav a:link {
     color: #fff;
     text-decoration: none;
 }
 
-nav >ul{
+nav>ul {
     display: inline;
     padding: 0;
 }
 
-nav >ul >li{
+nav>ul>li {
     display: inline-block;
     list-style: none;
     margin: 0 5px 0 5px;
 }
 
-main{
+main {
     display: block;
     background-image: url("images/background.png");
     padding-top: 3em;
@@ -49,11 +49,27 @@ main{
     min-height: 85%;
 }
 
-footer{
+footer {
     padding: 15px;
 }
 
-aside, article{
+aside, article {
     padding: 2em;
 }
 
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        display: flex;
+    }
+    aside{
+        margin-left: 2%;
+    }
+}
