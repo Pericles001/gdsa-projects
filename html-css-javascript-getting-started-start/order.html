@@ -8,7 +8,38 @@
     <link rel="stylesheet" href="site.css">
     <title>Bethany's Pie Shop</title>
     <style>
+      @media only screen and (min-width: 768px){
+          article{
+              width: 350px;
+          }
+      }
 
+      .input-group{
+          margin-bottom: 20px;
+
+      }
+      .input-group input,
+      .input-group textarea,
+      .input-group select{
+          padding: 10px;
+          border: solid 1px #999;
+          border-radius: 2px;
+          width: 100%;
+      }
+      label{
+          font-weight: 600;
+      }
+      input[type="reset"]{
+          background: transparent;
+          border: 0;
+          text-decoration: underline;
+          cursor: pointer;
+      }
+      input[type="submit"]{
+          border: solid 1px #999;
+          border-radius: 3px;
+          padding: 10px;
+      }
     </style>
 </head>
 
@@ -28,7 +59,19 @@
         </aside>
         <article>
             <h1>Order</h1>
+
+            <div class="pie">
+                <img src="" alt="" >
+                <div class="columns">
+                    <div class="title"></div>
+                    <div class="price"></div>
+                    <p class="desc"></p>
+                </div>
+            </div>
+
+
             <form action="" method="POST">
+                <input type="hidden" id="pie-order" name="pie-order">
                 <div class="input-group">
                     <div><label for="first-name">First Name</label></div>
                     <div><input type="text" name="first-name" placeholder="first name"></div>
@@ -73,5 +116,6 @@
         </nav>
     </footer>
 </body>
+<script src="scripts/dataOrder.js"></script>
 
 </html>
