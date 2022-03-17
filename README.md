@@ -1,7 +1,7 @@
 
 
 
-## Brief
+## Purpose
 This repository stores the projects I have done in the GDSA.
 
 ## Contents
