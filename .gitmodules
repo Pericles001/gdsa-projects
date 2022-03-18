@@ -1,0 +1,15 @@
+[submodule "javascript-functions"]
+	path = javascript-functions
+	url = https://github.com/Pericles001/javascript-functions.git
+[submodule "0x2J-javascript-rating-calculator"]
+	path = 0x2J-javascript-rating-calculator
+	url = https://github.com/Pericles001/JS-RatingsCalculator.git
+[submodule "0x3J-javascript-svg-library"]
+	path = 0x3J-javascript-svg-library
+	url = https://github.com/Pericles001/JS-SVGLibrary.git
+[submodule "0x4J-angular-album-store"]
+	path = 0x4J-angular-album-store
+	url = https://github.com/Pericles001/Angular-AlbumStoreProductPage.git
+[submodule "0x1J-javascript-functions"]
+	path = 0x1J-javascript-functions
+	url = https://github.com/Pericles001/javascript-functions.git
